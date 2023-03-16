@@ -12,7 +12,7 @@ namespace ProgrammingConstructs
         {
             Console.WriteLine("....Programming Constructs....");
 
-            Console.WriteLine("\n1:EqualityCheck\n2:EvenOrNot\n22:Exit");
+            Console.WriteLine("\n1:EqualityCheck\n2:EvenOrNot\n3:CatingEligibility\n22:Exit");
             int option = Convert.ToInt32(Console.ReadLine());
 
             switch (option)
@@ -22,6 +22,12 @@ namespace ProgrammingConstructs
                     break;
                 case 2:
                     EvenOrNot.EvenOrNotCheck(); 
+                    break;
+                case 3:
+                    CastingEligible.EligiblityCheck();
+                    break;
+                default:
+                    Console.WriteLine("Enter the correct option");
                     break;
             }
             Console.ReadLine();
