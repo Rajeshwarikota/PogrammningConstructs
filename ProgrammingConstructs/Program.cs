@@ -12,7 +12,7 @@ namespace ProgrammingConstructs
         {
             Console.WriteLine("....Programming Constructs....");
 
-            Console.WriteLine("\n1:EqualityCheck\n2:EvenOrNot\n3:CatingEligibility\n22:Exit");
+            Console.WriteLine("\n1:EqualityCheck\n2:EvenOrNot\n3:CatingEligibility\n4:LargestThreeNumbers\n22:Exit");
             int option = Convert.ToInt32(Console.ReadLine());
 
             switch (option)
@@ -25,6 +25,9 @@ namespace ProgrammingConstructs
                     break;
                 case 3:
                     CastingEligible.EligiblityCheck();
+                    break;
+                case 4:
+                    LargestThreeNumbers.LargestNumbers();
                     break;
                 default:
                     Console.WriteLine("Enter the correct option");
