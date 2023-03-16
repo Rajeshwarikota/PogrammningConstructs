@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AdmissionEntry.cs" />
+    <Compile Include="ArithmeticOperations.cs" />
     <Compile Include="CastingEligible.cs" />
     <Compile Include="EqualityCheck.cs" />
     <Compile Include="EvenOrNot.cs" />
