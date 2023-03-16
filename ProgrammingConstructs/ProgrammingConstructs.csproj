@@ -50,6 +50,7 @@
     <Compile Include="LargestThreeNumbers.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WeekDays.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
