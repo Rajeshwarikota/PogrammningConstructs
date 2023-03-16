@@ -48,6 +48,7 @@
     <Compile Include="CastingEligible.cs" />
     <Compile Include="EqualityCheck.cs" />
     <Compile Include="EvenOrNot.cs" />
+    <Compile Include="Factorial.cs" />
     <Compile Include="LargestThreeNumbers.cs" />
     <Compile Include="PowerOfTwo.cs" />
     <Compile Include="Program.cs" />
