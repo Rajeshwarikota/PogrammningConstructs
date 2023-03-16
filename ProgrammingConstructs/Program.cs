@@ -12,17 +12,17 @@ namespace ProgrammingConstructs
         {
             Console.WriteLine("....Programming Constructs....");
 
-            Console.WriteLine("Enter the First Integer");
-            int num1 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Enter the second Integer");
-            int num2 = Convert.ToInt32(Console.ReadLine());
-            if (num1 == num2)
+            Console.WriteLine("\n1:EqualityCheck\n2:EvenOrNot\n22:Exit");
+            int option = Convert.ToInt32(Console.ReadLine());
+
+            switch (option)
             {
-                Console.WriteLine("Both the Integers are equal");
-            }
-            else 
-            {
-                Console.WriteLine("Both the Integers are not equal");
+                case 1:
+                    EqualityCheck.Check();
+                    break;
+                case 2:
+                    EvenOrNot.EvenOrNotCheck(); 
+                    break;
             }
             Console.ReadLine();
         }
