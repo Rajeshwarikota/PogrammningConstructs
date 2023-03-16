@@ -12,7 +12,7 @@ namespace ProgrammingConstructs
         {
             Console.WriteLine("....Programming Constructs....");
 
-            Console.WriteLine("\n1:EqualityCheck\n2:EvenOrNot\n3:CatingEligibility\n4:LargestThreeNumbers\n5:AdmissionEntry\n6:WeekDays\n7:ArithmeticOperation\n22:Exit");
+            Console.WriteLine("\n1:EqualityCheck\n2:EvenOrNot\n3:CatingEligibility\n4:LargestThreeNumbers\n5:AdmissionEntry\n6:WeekDays\n7:ArithmeticOperation\n8:PowerOfTwo\n22:Exit");
             int option = Convert.ToInt32(Console.ReadLine());
 
             switch (option)
@@ -37,6 +37,9 @@ namespace ProgrammingConstructs
                     break;
                 case 7:
                      ArithmeticOperations.Operations();
+                    break;
+                case 8:
+                    PowerOfTwo.Power();
                     break;
                 default:
                     Console.WriteLine("Enter the correct option");

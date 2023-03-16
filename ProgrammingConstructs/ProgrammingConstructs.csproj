@@ -49,6 +49,7 @@
     <Compile Include="EqualityCheck.cs" />
     <Compile Include="EvenOrNot.cs" />
     <Compile Include="LargestThreeNumbers.cs" />
+    <Compile Include="PowerOfTwo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WeekDays.cs" />
