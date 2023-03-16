@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdmissionEntry.cs" />
     <Compile Include="CastingEligible.cs" />
     <Compile Include="EqualityCheck.cs" />
     <Compile Include="EvenOrNot.cs" />
