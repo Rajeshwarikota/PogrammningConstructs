@@ -12,7 +12,7 @@ namespace ProgrammingConstructs
         {
             Console.WriteLine("....Programming Constructs....");
 
-            Console.WriteLine("\n1:EqualityCheck\n2:EvenOrNot\n3:CatingEligibility\n4:LargestThreeNumbers\n5:AdmissionEntry\n6:WeekDays\n7:ArithmeticOperation\n8:PowerOfTwo\n9:SumOfSquares\n10:Factorial\n22:Exit");
+            Console.WriteLine("\n1:EqualityCheck\n2:EvenOrNot\n3:CatingEligibility\n4:LargestThreeNumbers\n5:AdmissionEntry\n6:WeekDays\n7:ArithmeticOperation\n8:PowerOfTwo\n9:SumOfSquares\n10:Factorial\n11:FlipCoin\n12:WordReverse\n22:Exit");
             int option = Convert.ToInt32(Console.ReadLine());
 
             switch (option)
@@ -46,6 +46,12 @@ namespace ProgrammingConstructs
                     break;
                 case 10:
                     Factorial.Factors();
+                    break;
+                case 11:
+                    FlipCoin.Flip();
+                    break;
+                case 12:
+                    WordReverse.Reverse();
                     break;
                 default:
                     Console.WriteLine("Enter the correct option");
