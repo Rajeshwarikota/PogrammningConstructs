@@ -46,6 +46,7 @@
     <Compile Include="AdmissionEntry.cs" />
     <Compile Include="ArithmeticOperations.cs" />
     <Compile Include="CastingEligible.cs" />
+    <Compile Include="CountOfDuplicate.cs" />
     <Compile Include="EqualityCheck.cs" />
     <Compile Include="EvenOrNot.cs" />
     <Compile Include="Factorial.cs" />

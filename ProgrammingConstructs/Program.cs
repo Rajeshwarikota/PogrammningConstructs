@@ -12,7 +12,7 @@ namespace ProgrammingConstructs
         {
             Console.WriteLine("....Programming Constructs....");
 
-            Console.WriteLine("\n1:EqualityCheck\n2:EvenOrNot\n3:CatingEligibility\n4:LargestThreeNumbers\n5:AdmissionEntry\n6:WeekDays\n7:ArithmeticOperation\n8:PowerOfTwo\n9:SumOfSquares\n10:Factorial\n11:FlipCoin\n12:WordReverse\n13:SumOfFirstFive\n22:Exit");
+            Console.WriteLine("\n1:EqualityCheck\n2:EvenOrNot\n3:CatingEligibility\n4:LargestThreeNumbers\n5:AdmissionEntry\n6:WeekDays\n7:ArithmeticOperation\n8:PowerOfTwo\n9:SumOfSquares\n10:Factorial\n11:FlipCoin\n12:WordReverse\n13:SumOfFirstFive\n14:CountDuplicate\n22:Exit");
             int option = Convert.ToInt32(Console.ReadLine());
 
             switch (option)
@@ -21,7 +21,7 @@ namespace ProgrammingConstructs
                     EqualityCheck.Check();
                     break;
                 case 2:
-                    EvenOrNot.EvenOrNotCheck(); 
+                    EvenOrNot.EvenOrNotCheck();
                     break;
                 case 3:
                     CastingEligible.EligiblityCheck();
@@ -30,13 +30,13 @@ namespace ProgrammingConstructs
                     LargestThreeNumbers.LargestNumbers();
                     break;
                 case 5:
-                     AdmissionEntry.AdmissionEligibility();
+                    AdmissionEntry.AdmissionEligibility();
                     break;
                 case 6:
                     WeekDays.DaysCheck();
                     break;
                 case 7:
-                     ArithmeticOperations.Operations();
+                    ArithmeticOperations.Operations();
                     break;
                 case 8:
                     PowerOfTwo.Power();
@@ -55,6 +55,18 @@ namespace ProgrammingConstructs
                     break;
                 case 13:
                     SumOfFirstFive.Sum();
+                    break;
+                case 14:
+                    Console.WriteLine("How many elents to add into array");
+                    int n = Convert.ToInt32(Console.ReadLine());
+                    int[] array = new int[n];
+                    Console.WriteLine("storing elements into array");
+
+                    for (int i = 0; i < n; i++)
+                    {
+                        array[i] = Convert.ToInt32(Console.ReadLine());
+                    }
+                    CountOfDuplicate.Duplicate(array);
                     break;
                 default:
                     Console.WriteLine("Enter the correct option");
