@@ -50,6 +50,7 @@
     <Compile Include="EqualityCheck.cs" />
     <Compile Include="EvenOrNot.cs" />
     <Compile Include="Factorial.cs" />
+    <Compile Include="FindingMaxOrMin.cs" />
     <Compile Include="FlipCoin.cs" />
     <Compile Include="LargestThreeNumbers.cs" />
     <Compile Include="PowerOfTwo.cs" />
