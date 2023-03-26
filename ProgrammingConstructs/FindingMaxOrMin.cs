@@ -25,7 +25,6 @@ namespace ProgrammingConstructs
                     min = Array[i];
                 }
             }
-
             Console.WriteLine("Maximum element in the array: " + max);
             Console.WriteLine("Minimum element in the array: " + min);
         }

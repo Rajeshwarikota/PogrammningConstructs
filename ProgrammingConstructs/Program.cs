@@ -12,7 +12,7 @@ namespace ProgrammingConstructs
         {
             Console.WriteLine("....Programming Constructs....");
 
-            Console.WriteLine("\n1:EqualityCheck\n2:EvenOrNot\n3:CatingEligibility\n4:LargestThreeNumbers\n5:AdmissionEntry\n6:WeekDays\n7:ArithmeticOperation\n8:PowerOfTwo\n9:SumOfSquares\n10:Factorial\n11:FlipCoin\n12:WordReverse\n13:SumOfFirstFive\n14:CountDuplicate\n15:finfing max or min\n16:Reverse triangle pattern\n17:ReversingNumber\n22:Exit");
+            Console.WriteLine("\n1:EqualityCheck\n2:EvenOrNot\n3:CatingEligibility\n4:LargestThreeNumbers\n5:AdmissionEntry\n6:WeekDays\n7:ArithmeticOperation\n8:PowerOfTwo\n9:SumOfSquares\n10:Factorial\n11:FlipCoin\n12:WordReverse\n13:SumOfFirstFive\n14:CountDuplicate\n15:finfing max or min\n16:Reverse triangle pattern\n17:ReversingNumber\n18:Sum of Digits\n19:Unique Elements\n22:Exit");
             int option = Convert.ToInt32(Console.ReadLine());
 
             switch (option)
@@ -85,6 +85,12 @@ namespace ProgrammingConstructs
                     break;
                 case 17:
                     ReversingNumber.ReverseNumber();
+                    break;
+                case 18:
+                    SumOFNumbers.DigitsSum();
+                    break;
+                case 19:
+                    UniqueElements.Elements();
                     break;
                 default:
                     Console.WriteLine("Enter the correct option");
