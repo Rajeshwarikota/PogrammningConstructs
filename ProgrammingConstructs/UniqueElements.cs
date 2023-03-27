@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace ProgrammingConstructs
 {
-    internal class FrequencyOfElements
+    internal class UniqueElements
     {
-        public static void Frequency()
+        public static void Elements()
         {
             Console.WriteLine("How many elents to add into array");
             int num = Convert.ToInt32(Console.ReadLine());
@@ -20,21 +20,20 @@ namespace ProgrammingConstructs
                 arr[i] = Convert.ToInt32(Console.ReadLine());
             }
 
-            Console.WriteLine("The frequency of each element in the array is:");
+            Console.WriteLine("The unique elements in the array is:");
             for (int i = 0; i < arr.Length; i++)
             {
-                int count = 1;
-                for (int j = i + 1; j < arr.Length; j++)
+                int count = 0;
+                for (int j = 0; j < arr.Length; j++)
                 {
                     if (arr[i] == arr[j])
                     {
                         count++;
-                        arr[j] = 0;
                     }
                 }
-                if (arr[i] != 0)
+                if (count == 1)
                 {
-                    Console.WriteLine(arr[i] + " occurs " + count + " times");
+                    Console.WriteLine(arr[i] + " is a unique element.");
                 }
             }
 

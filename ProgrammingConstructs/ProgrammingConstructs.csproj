@@ -60,7 +60,9 @@
     <Compile Include="ReverseTrianglePattern.cs" />
     <Compile Include="ReversingNumber.cs" />
     <Compile Include="SumOfFirstFive.cs" />
+    <Compile Include="SumOfRow.cs" />
     <Compile Include="SumOFSquares.cs" />
+    <Compile Include="UniqueElements.cs" />
     <Compile Include="WeekDays.cs" />
     <Compile Include="WordReverse.cs" />
   </ItemGroup>
